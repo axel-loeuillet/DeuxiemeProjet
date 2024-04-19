@@ -3,7 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-header, 
+header,
 nav {
     display: flex;
     flex-direction: row;
@@ -13,8 +13,21 @@ nav {
 
 nav {
     gap: 68px;
+    margin-top: 7px;
 }
- 
+
+.btn-hébergements:hover {
+    text-decoration: underline;
+    text-underline-offset: -25px;
+    color: #0065FC;
+}
+
+.btn-activités:hover {
+    text-decoration: underline;
+    text-underline-offset: -25px;
+    color: #0065FC;
+}
+
 #Logo {
     height: 19px;
     padding-top: 30px;
