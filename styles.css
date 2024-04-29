@@ -83,11 +83,52 @@ input::placeholder {
 
 /* Filtre de recherche */
 
-.filtres,
-.liste-filtres {
+.titre-filtres {
+    margin-right: 20px;
+    font-size: large;
+}
+
+.barre-filtres {
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.liens-filtres {
+    display: flex;
+    gap: 20px;
+}
+
+.filtre {
     display: flex;
     align-items: center;
-    justify-content: flex-start
+    gap: 10px;
+    border: #F2F2F2 solid 2px;
+    border-radius: 40px;
+    padding: 13px 20px 13px 20px;
+}
+
+.filtre:hover {
+    background-color: #DEEBFF;
+}
+
+/* barre d'information */
+
+.barre-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.fa-info {
+    border: solid #F2F2F2 1px;
+    padding: 11px 9px 11px 9px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
 :root {
