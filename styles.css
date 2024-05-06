@@ -45,7 +45,12 @@ form {
     flex-direction: row;
     padding-top: 25px;
     padding-bottom: 30px;
-    height: 50px;
+    height: 55px;
+}
+
+form .fa-solid {
+    display: flex;
+
 }
 
 button {
@@ -68,10 +73,14 @@ button {
 }
 
 #icon-location {
-    height: 18px;
+    height: 23px;
     padding: 16px 20px 16px 20px;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+
 }
 
 input::placeholder {
@@ -244,12 +253,12 @@ a {
 
 .hebergements-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 .hebergements-cards .card-subtitle {
     margin: 5px 0px 5px 0px;
-    font-size: small;
+    font-size: medium;
 }
 
 .hebergements-cards .card-rating {
