@@ -583,7 +583,6 @@ footer .footer-section {
     }
 
     .hebergements-title {
-        text-align: left;
         padding-bottom: 5px;
         display: flex;
         align-items: start;
@@ -610,4 +609,38 @@ footer .footer-section {
     .more-search {
         margin-top: 15px;
     }
+
+    /******** Activities *********/
+
+    .activities-title {
+        text-align: left;
+        display: flex;
+        align-items: start;
+        padding-bottom: 0px;
+        margin-top: 30px;
+    }
+
+    .activities-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .activities-cards img {
+        height: 150px;
+    }
+
+    .activities-cards .card {
+        height: 200px;
+    }
+
+    .activities-cards .link-activities {
+        width: 100%;
+    }
+
+    .card .card-title {
+        margin-top: 10px;
+    }
+
 }
