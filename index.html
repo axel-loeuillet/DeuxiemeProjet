@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -19,30 +19,28 @@
         <header>
             <img src="images/logo/Booki.png" alt="Logo Booki" id="Logo">
             <nav>
-                <div class="btn-hébergements">
-                    <a href="#hebergements">Hébergements</a>
-                </div>
-                <div class="btn-activités">
-                    <a href="#activities">Activités</a>
-                </div>
+                <a class="btn-hébergements" href="#hebergements">Hébergements</a>
+                <a class="btn-activités" href="#activities">Activités</a>
             </nav>
         </header>
         <main>
             <h1> Trouvez votre hébergements pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature </p>
-            <form method="get" action="">
+            <form method="get" action="#">
                 <i class="fa-solid fa-location-dot fa-lg" id="icon-location"></i>
-                <input type="search" id="recherche-site" name="q" placeholder="Marseille, France" />
+                <input type="search" id="recherche-site" name="q" placeholder="Marseille, France">
 
-                <button>Rechercher</button>
+                <button><span class="search">Rechercher</span><span class="magnifying-glass"><i
+                            class="fa-solid fa-magnifying-glass fa-lg"></i>
+                        <span></button>
             </form>
             <section class="barre-filtres">
                 <p class="titre-filtres">Filtres</p>
                 <div class="liens-filtres">
-                    <a class="filtre" href=""><i class="fa-solid fa-money-bill-wave fa-lg"></i>Économique</a>
-                    <a class="filtre" href=""><i class="fa-solid fa-person fa-xl"></i>Familial</a>
-                    <a class="filtre" href=""><i class="fa-solid fa-heart fa-lg"></i>Romantique</a>
-                    <a class="filtre" href=""><i class="fa-solid fa-fire fa-lg"></i>Nos
+                    <a class="filter" href=""><i class="fa-solid fa-money-bill-wave fa-lg"></i>Économique</a>
+                    <a class="filter" href=""><i class="fa-solid fa-person fa-xl"></i>Familial</a>
+                    <a class="filter" href=""><i class="fa-solid fa-heart fa-lg"></i>Romantique</a>
+                    <a class="filter" href=""><i class="fa-solid fa-fire fa-lg"></i>Nos
                         pépites</a>
                 </div>
             </section>
@@ -118,6 +116,8 @@
                                     </div>
                                 </article>
                             </a>
+                        </div>
+                        <div class="secondline-cards">
                             <a class="card-link" href="#">
                                 <article class="card">
                                     <img src="images/hebergements/annie-spratt.jpg"
@@ -185,6 +185,7 @@
                         <div class="more-search">
                             <a href="#">Afficher plus</a>
                         </div>
+                    </div>
                 </section>
                 <section class="populaires">
                     <header class="populaires-title">
@@ -297,23 +298,23 @@
                 <div class="footer-list">
                     <h3>À propos</h3>
                     <ul style="list-style-type:none;">
-                        <li><a href>Fonctionnement du site</a></li>
-                        <li><a href>Conditions générales</a></li>
-                        <li><a href>Données et confidentialité</a></li>
+                        <li><a href="">Fonctionnement du site</a></li>
+                        <li><a href="">Conditions générales</a></li>
+                        <li><a href="">Données et confidentialité</a></li>
                     </ul>
                 </div>
                 <div class="footer-list">
                     <h3>Nos hébergements</h3>
                     <ul style="list-style-type:none;">
-                        <li><a href>Charte qualité</a></li>
-                        <li><a href>Proposer votre hôtel</a></li>
+                        <li><a href="">Charte qualité</a></li>
+                        <li><a href="">Proposer votre hôtel</a></li>
                     </ul>
                 </div>
                 <div class="footer-list">
                     <h3>Assistance</h3>
                     <ul style="list-style-type:none;">
-                        <li><a href>Centre d'aide</a></li>
-                        <li><a href>Nous contacter</a></li>
+                        <li><a href="">Centre d'aide</a></li>
+                        <li><a href="">Nous contacter</a></li>
                     </ul>
                 </div>
             </div>
