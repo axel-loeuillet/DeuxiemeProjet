@@ -547,4 +547,39 @@ footer .footer-section {
         display: flex;
         flex-wrap: wrap;
     }
+
+    /****** Populaires *******/
+
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .hebergements-and-populaires .populaires {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .populaires .card {
+        margin-top: 15px;
+    }
+
+    .populaires-title {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 5px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+        margin-top: none;
+    }
+
+
+
 }
