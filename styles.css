@@ -515,11 +515,10 @@ footer .footer-section {
         margin-top: 10px;
     }
 
-    /****** part form ********/
+    /****** form part ********/
 
     #recherche-site {
         width: 100%;
-
     }
 
     button {
@@ -544,5 +543,8 @@ footer .footer-section {
     }
 
     /******* Filter ********/
-
+    .liens-filtres {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
