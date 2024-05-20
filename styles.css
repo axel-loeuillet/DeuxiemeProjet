@@ -516,7 +516,6 @@ footer .footer-section {
     }
 
     /****** form part ********/
-
     #recherche-site {
         width: 100%;
     }
@@ -549,11 +548,9 @@ footer .footer-section {
     }
 
     /****** Populaires *******/
-
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
-        gap: 30px;
     }
 
     .hebergements-and-populaires .populaires {
@@ -580,6 +577,37 @@ footer .footer-section {
         margin-top: none;
     }
 
+    /******** hebergements ********/
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+    }
 
+    .hebergements-title {
+        text-align: left;
+        padding-bottom: 5px;
+        display: flex;
+        align-items: start;
+    }
 
+    .firstline-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 5px;
+    }
+
+    .secondline-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .card-link {
+        width: 100%;
+    }
+
+    .more-search {
+        margin-top: 15px;
+    }
 }
