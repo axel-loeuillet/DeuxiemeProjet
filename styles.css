@@ -650,4 +650,17 @@ footer .footer-section {
         margin-top: 10px;
     }
 
+    /******** Footer *******/
+
+    footer {
+        height: auto;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        text-wrap: nowrap;
+    }
 }
