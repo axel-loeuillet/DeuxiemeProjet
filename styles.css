@@ -545,7 +545,14 @@ footer .footer-section {
     .liens-filtres {
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
     }
+
+    .filter {
+        width: 130px;
+        height: 25px;
+    }
+
 
     /****** Populaires *******/
     .hebergements-and-populaires {
@@ -616,7 +623,7 @@ footer .footer-section {
         text-align: left;
         display: flex;
         align-items: start;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         margin-top: 30px;
     }
 
