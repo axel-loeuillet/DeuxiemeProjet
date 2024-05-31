@@ -1,4 +1,4 @@
-/****** General ***********/
+/************** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -58,7 +58,7 @@ a {
     color: var(--main-bg-color)
 }
 
-/******** Header *********/
+/************** Header ****************/
 header,
 nav {
     display: flex;
@@ -98,7 +98,7 @@ h1 {
     font-size: 22px;
 }
 
-/********* Form *******/
+/*************** Form **************/
 form {
     display: flex;
     flex-direction: row;
@@ -136,7 +136,7 @@ button .search {
     width: 20%;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 #icon-location {
@@ -352,10 +352,10 @@ input::placeholder {
 
 /******** Activities *********/
 .activities-title {
-    font-size: medium;
+    font-size: 22px;
     margin-top: 50px;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .activities-title .activities-cards {
@@ -449,6 +449,7 @@ footer .footer-section {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    /************* General *************/
     .main-container {
         width: 100%;
         max-width: 1440px;
@@ -466,6 +467,7 @@ footer .footer-section {
         align-items: flex-start;
     }
 
+    /*********** Hebergements *********/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -479,6 +481,7 @@ footer .footer-section {
         border-top-right-radius: 15px;
     }
 
+    /*********** populaires ************/
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -512,6 +515,7 @@ footer .footer-section {
         font-size: 13px;
     }
 
+    /************ Activities ***********/
     .activities-title {
         margin-left: 35px;
     }
@@ -535,6 +539,7 @@ footer .footer-section {
         align-content: center;
     }
 
+    /******** Footer *********/
     .footer-section {
         text-wrap: nowrap;
     }
@@ -608,7 +613,7 @@ footer .footer-section {
         padding: 15px 15px 15px 15px;
     }
 
-    /**************** form part ***************/
+    /**************** form ***************/
     #recherche-site {
         width: 100%;
         padding-left: 0px;
@@ -757,7 +762,6 @@ footer .footer-section {
     }
 
     /******** Activities *********/
-
     .activities {
         padding: 30px 25px 30px 25px;
     }
